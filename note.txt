@@ -1,0 +1,22 @@
+#### Notes for Project ###
+
+
+ :- free                               		== Using this command we can check the the system free memory space
+
+ :- free -h                            		== Simple way for humans
+
+ :- free -mt  			       		== in formate total use and total free etc
+
+ :- free -mt | grep "Total" 	       		== This is sparate for us what we need only
+
+ :- free -mt | grep "Total" | awk '{print $4}'  == also for sapraton
+
+ :- df  					== For check the disk status
+
+ :- df - H | egrep -v "Filesystem|tmpfs"
+
+ :- df -H | egrep -v "Filesystem|tmpfs"
+
+
+
+

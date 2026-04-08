@@ -39,4 +39,33 @@ ans :- for space of disk , we are reduce size
 -------------------------------------------------
 
 
+######## Project no. 4th ##########
+
+In this project we are working on the local user create 
+
+:- Requirement 
+
+- Script should be executed with root user else exit with status 1 and error.
+- Script will take 1st argument as user and rest willl be trated as comment.
+- Auto generete password for the user
+- Upon successful execution of script, display the following 
+	- username : <username>
+	- password : <Auto_genrate password>
+	- host : 
+
+-------------Steps of Script--------------------
+
+1. Check id the script is being executed with superuser privileges.
+2. If the user doesn't supply at least one argument, then give them help.
+3. The first parameter is the user name.
+4. The rest of the parameterare for the commnets.
+5. Generate a password.
+6. Create the user with the password.
+7. Check to see if the useradd command succeeded.
+8. Force password change on first login.
+9. Display the username, password and the host where the user is created.
+
+
+--------------------------------------------------
+
 
